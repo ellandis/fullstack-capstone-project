@@ -25,6 +25,7 @@ app.use(express.json());
 const giftRoutes = require('./routes/giftRoutes');
 const authRoutes = require('./routes/authRoutes'); 
 const searchRoutes = require('./routes/searchRoutes');
+
 const pinoHttp = require('pino-http');
 const logger = require('./logger');
 
